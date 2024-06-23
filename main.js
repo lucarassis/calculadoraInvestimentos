@@ -173,5 +173,6 @@ for (const formElement of form) {
   }
 }
 
-calculateButton.addEventListener("click", renderProgression);
+// Depois que montar a tabela, descomentar o calculateButton abaixo
+//calculateButton.addEventListener("click", renderProgression);
 clearFormButton.addEventListener("click", clearForm);
